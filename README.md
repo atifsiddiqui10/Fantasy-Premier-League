@@ -25,16 +25,16 @@ Our model approch is based on the ROI value associated with each player.
   
 ## Picking the team 
 After looking at different options we settled on a type pf simple constained optimisation model called linear program. 
-### Constraints for picking a team: 
-                                  1) Budget of 100M
-                                  2) Starting line up of 11 players and 4 subs
-                                  3) No more than 3 players from the same team
+### Constraints for picking a team
+     1) Budget of 100M
+     2) Starting line up of 11 players and 4 subs
+     3) No more than 3 players from the same team
                           
 ## Linear Programming 
 A linear program allows the efficient exact optimisation of a objective function subject to constraints, where the objective function and the constraints are linear in the decision variables. 
 
 ### Example
-An example of an integer linear program is as follows:
+An example of an integer linear program is as follows
     1) objective function: $F = \sum_{i=0}^{N}x_i V_i$
     2) constraints: $\sum_{i=0}^{N}x_i C_i \le 100$
              $\sum_{i=0}^{N}x_i \le 10$
