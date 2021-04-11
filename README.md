@@ -15,7 +15,7 @@ Most people use personal bias and favoritism when picking a fantasy team. In oth
 
 ## Approch
 Our model approch is based on the ROI value associated with each player. 
-ROI value = Total Points of a player / The cost of the player 
+### ROI value = Total Points of a player / The cost of the player 
 
 ## Data Analysis 
     1) We started by making a pandas dataframe by converting the JSON dataframe that we got from the API. 
@@ -25,7 +25,7 @@ ROI value = Total Points of a player / The cost of the player
   
 ## Picking the team 
 After looking at different options we settled on a type pf simple constained optimisation model called linear program. 
-###Constraints for picking a team: 
+### Constraints for picking a team: 
                                   1) Budget of 100M
                                   2) Starting line up of 11 players and 4 subs
                                   3) No more than 3 players from the same team
@@ -33,10 +33,10 @@ After looking at different options we settled on a type pf simple constained opt
 ## Linear Programming 
 A linear program allows the efficient exact optimisation of a objective function subject to constraints, where the objective function and the constraints are linear in the decision variables. 
 
-###An Example
+### Example
 An example of an integer linear program is as follows:
-objective function: $F = \sum_{i=0}^{N}x_i V_i$
-constraints: $\sum_{i=0}^{N}x_i C_i \le 100$
+    1) objective function: $F = \sum_{i=0}^{N}x_i V_i$
+    2) constraints: $\sum_{i=0}^{N}x_i C_i \le 100$
              $\sum_{i=0}^{N}x_i \le 10$
 
 This describes the following problem: There are $N$ different items in a shop, each with an associated cost $C_i$ and value $V_i$. We indicate whether we buy each item or not with a binary variable $x_i$, so we have 100 variables in total. We want to maximise the total value of the items we buy. However:
