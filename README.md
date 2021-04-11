@@ -46,3 +46,8 @@ This describes the following problem: There are $N$ different items in a shop, e
 ## PuLP
 PuLP is a linear programming library in Python. It allows you to write down an objective function and constraints in a very intuitive way and instantly solve them.
 
+## Reference 
+1) https://ml.christmas/2019/23
+2) https://analyticsindiamag.com/how-data-science-can-help-you-win-the-fantasy-premier-league/
+3) https://rstudio-pubs-static.s3.amazonaws.com/577042_d4492e2e511848fb97ef839be077e9b8.html
+4) https://github.com/joconnor-ml/forecasting-fantasy-football/blob/master/notebooks/Linearly%20Optimising%20FPL%20Teams.ipynb
