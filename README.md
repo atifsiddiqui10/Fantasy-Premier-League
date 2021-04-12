@@ -13,7 +13,7 @@ We started by getting the up-to-date stats from the Fanatasy Premier League API 
 ## Hypothesis to test 
 Most people use personal bias and favoritism when picking a fantasy team. In other words, people base their decisions on which team they support and on which Premier league player are the "hottest" at the moment. Without even taking a look at individual players as long-term investments. 
 
-## Approch
+## Approach
 Our model approch is based on the ROI value associated with each player. 
 ### ROI value = Total Points of a player / The cost of the player 
 
